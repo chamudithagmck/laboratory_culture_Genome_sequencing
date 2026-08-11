@@ -53,11 +53,10 @@ The model achieves exceptional accuracy in distinguishing between the two parasi
 ### Classification Report
 | Species | Precision | Recall | F1-Score | Support |
 |---|---|---|---|---|
-| **Leishmania donovani** | 0.98 | 0.95 | 0.96 | 1603 |
-| **Trypanosoma brucei** | 0.96 | 0.98 | 0.97 | 1757 |
-
-| **Leishmania donovani** | 0.98 | 0.94 | 0.96 | 1617 |
-| **Trypanosoma brucei** | 0.94 | 0.98 | 0.96 | 1754 |
+| **Leishmania donovani for set 1** | 0.98 | 0.95 | 0.96 | 1603 |
+| **Trypanosoma brucei for set 1** | 0.96 | 0.98 | 0.97 | 1757 |
+| **Leishmania donovani for set 2** | 0.98 | 0.94 | 0.96 | 1617 |
+| **Trypanosoma brucei for set 2** | 0.94 | 0.98 | 0.96 | 1754 |
 
 *   **Diagnostic insight:** The model yields high precision (0.98) for *L. donovani*, meaning false positives are exceedingly rare (only 34 misclassified sequences). 
 
